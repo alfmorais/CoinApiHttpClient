@@ -1,0 +1,34 @@
+interactions:
+- request:
+    body: null
+    headers:
+      X-CoinAPI-Key:
+      - DUMMY
+    method: GET
+    uri: https://rest.coinapi.io/v1/assets/some-asset-id
+  response:
+    body:
+      string: '[]'
+    headers:
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 03 Nov 2023 20:54:33 GMT
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      x-concurrencylimit-limit:
+      - '1'
+      x-concurrencylimit-remaining:
+      - '1'
+      x-ratelimit-limit:
+      - '100'
+      x-ratelimit-request-cost:
+      - '1'
+    status:
+      code: 200
+      message: OK
+version: 1

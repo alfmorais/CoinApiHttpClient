@@ -1,0 +1,43 @@
+interactions:
+- request:
+    body: null
+    headers:
+      X-CoinAPI-Key:
+      - DUMMY
+    method: GET
+    uri: https://rest.coinapi.io/v1/assets/BTC
+  response:
+    body:
+      string: "[\n  {\n    \"asset_id\": \"BTC\",\n    \"name\": \"Bitcoin\",\n    \"type_is_crypto\":
+        1,\n    \"data_quote_start\": \"2014-02-24T00:00:00.0000000Z\",\n    \"data_quote_end\":
+        \"2023-10-31T00:00:00.0000000Z\",\n    \"data_orderbook_start\": \"2014-02-24T17:43:05.0000000Z\",\n
+        \   \"data_orderbook_end\": \"2023-07-07T00:00:00.0000000Z\",\n    \"data_trade_start\":
+        \"2010-07-17T00:00:00.0000000Z\",\n    \"data_trade_end\": \"2023-11-01T00:00:00.0000000Z\",\n
+        \   \"data_symbols_count\": 179012,\n    \"volume_1hrs_usd\": 561017505394242640.77,\n
+        \   \"volume_1day_usd\": 12215664045686035546.24,\n    \"volume_1mth_usd\":
+        382418373694157563321.31,\n    \"price_usd\": 34660.961829156458678608816995,\n
+        \   \"id_icon\": \"4caf2b16-a017-4e26-a348-2cea69c34cba\",\n    \"data_start\":
+        \"2010-07-17\",\n    \"data_end\": \"2023-11-01\"\n  }\n]"
+    headers:
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 03 Nov 2023 20:54:31 GMT
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      x-concurrencylimit-limit:
+      - '1'
+      x-concurrencylimit-remaining:
+      - '1'
+      x-ratelimit-limit:
+      - '100'
+      x-ratelimit-request-cost:
+      - '1'
+    status:
+      code: 200
+      message: OK
+version: 1
